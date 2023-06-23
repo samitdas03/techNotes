@@ -1,0 +1,25 @@
+.dash-header {
+  background-color: #000;
+  padding: 20px;
+  .dash-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .title {
+      color: whitesmoke;
+      text-decoration: none;
+    }
+
+    .dash-header-nav {
+      button {
+        background: none;
+        color: whitesmoke;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

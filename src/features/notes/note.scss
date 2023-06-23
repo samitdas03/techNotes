@@ -1,0 +1,54 @@
+.note-content {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title {
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    button {
+      height: 30px;
+      width: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border: none;
+      background: none;
+    }
+  }
+
+  .text {
+    flex: 1;
+    margin-top: 15px;
+  }
+
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+}

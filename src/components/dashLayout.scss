@@ -1,0 +1,11 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .dash-container {
+    flex: 1;
+    min-height: 100%;
+    padding: 38px 42px 50px 42px;
+  }
+}
